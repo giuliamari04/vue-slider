@@ -43,6 +43,9 @@ createApp({
               this.activeIndex = 0;
             }
             },
+        selectSlide(index){
+            this.activeIndex = index;
+        }
     },
     mounted(){
         setInterval(() => {
